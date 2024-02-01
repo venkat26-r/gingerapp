@@ -1,0 +1,47 @@
+.login-container {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.login-container .form,
+.login-container .loading {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+}
+
+.login-container .loading {
+    text-align: center;
+}
+
+.login-container .form .message {
+    font-size: 12px;
+}
+
+.login-container .form .message a {
+    color: rgb(0, 137, 161);
+}
+
+.title {
+    font-weight: 100;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.title .icon {
+    float: right;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+.title .icon:hover { cursor: pointer; }
+
+.floating-action-button {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
